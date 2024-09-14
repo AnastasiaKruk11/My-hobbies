@@ -1,0 +1,113 @@
+.about__title {
+  margin-bottom: 30px;
+}
+.about__text {
+  max-width: 900px;
+  margin: 0 auto;
+  font-size: 0.9rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Source Serif 4", sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+
+section {
+  padding: 50px;
+}
+
+.beginning {
+  background-color: rgb(240, 231, 240);
+}
+.beginning__text {
+  margin-bottom: 50px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+.beginning__photo {
+  max-width: 450px;
+}
+
+.hobbies {
+  background-color: rgb(240, 231, 240);
+}
+
+.hobby {
+  text-align: left;
+  padding-left: 200px;
+}
+.hobby__item {
+  font-size: 0.9rem;
+}
+
+.interest-link__image {
+  max-width: 200px;
+  border: 4px solid rgb(119, 115, 119);
+  border-radius: 5%;
+}
+
+.interest {
+  width: calc((100% - 20px) / 2);
+}
+.interest:not(:last-of-type) {
+  margin-right: 20px;
+}
+.interest__item {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+.interest__comment {
+  font-size: 0.6rem;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.interests {
+  display: flex;
+}
+
+.main {
+  text-transform: uppercase;
+  color: rgb(31, 29, 28);
+}
+
+.social-link {
+  margin: 15px 0;
+  display: block;
+}
+.social-link__icon {
+  width: 40px;
+  vertical-align: middle;
+}
+
+.socials {
+  background-color: rgb(170, 164, 160);
+  padding: 30px;
+}
+.socials__comment {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.title {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.top {
+  background-color: rgb(170, 164, 160);
+  padding: 20px;
+}/*# sourceMappingURL=style.css.map */

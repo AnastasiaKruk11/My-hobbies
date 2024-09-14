@@ -1,0 +1,10 @@
+.about {
+    &__title {
+        margin-bottom: 30px;
+    }
+    &__text {
+        max-width: 900px;
+        margin: 0 auto;
+        font-size: 0.9rem;
+    }
+}

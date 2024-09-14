@@ -1,0 +1,15 @@
+.interest {
+    width: calc((100% - 20px) / 2);
+    &:not(:last-of-type) {
+        margin-right: 20px;
+    }
+    &__item {
+        font-size: 1rem;
+        margin-bottom: 20px;
+    }
+    &__comment {
+        font-size: 0.6rem;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+}
